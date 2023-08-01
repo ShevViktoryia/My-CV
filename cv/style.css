@@ -1,0 +1,179 @@
+body {
+  box-sizing: inherit;
+  margin: 0;
+  overflow-x:hidden;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fefefd;
+}
+
+h2 {
+  padding-bottom: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+b {
+  font-size: 18px;
+}
+
+.header_wrapper {
+  display: flex;
+  background-color: #5e5048;
+  justify-content: center;
+}
+
+.photo {
+  height: auto;
+  width: 20%;
+  background: center / cover no-repeat url(./assets/photo/photo.jpg);
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  padding-bottom: 0;
+  justify-content: center;
+  width: 40%;
+  background-color: #fefefd;
+}
+
+.name, .position {
+  color: #5e5048;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h3 {
+  padding-top: 15px;
+  padding-bottom: 40px;
+  font-size: 23px;
+}
+
+.about_me {
+  background-color: #b6927c;
+  margin: 0;
+  color: #fefefd;
+  line-height: 25px;
+  padding: 42px;
+  margin-left: -40px;
+  width: 60vw;
+}
+
+.about_me span {
+  display: block;
+  width: 60%;
+}
+
+.main_wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #b6927c;
+}
+
+.left {
+  background-color: #5e5048;
+  width: calc(20% - 40px);
+  padding: 40px 20px;
+  color: #fefefd;
+}
+
+.contacts_wrapper > h2, .languages_wrapper > h2,
+.education_wrapper > h2, .courses_wrapper > h2 {
+  margin-bottom: 16px;
+}
+
+.contacts_wrapper > p {
+  margin-bottom: 10px;
+}
+
+.right {
+  width: 40%;
+  padding: 40px;
+  background-color: #fefefd;
+  color: #5e5048;
+}
+
+h2 {
+  border-bottom: 3px solid #fefefd;
+}
+
+section {
+  width: 100%;
+}
+
+.skills_wrapper {
+  padding-top: 40px;
+}
+
+.skills_wrapper > ul {
+  padding: 0;
+}
+
+.skill_progress {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.progress_level::before {
+  content: '\272D';
+  color: #ffffff;
+}
+
+.progress_level_gray::before {
+  content: '\272D';
+  color: #7a7776;
+}
+
+.right h2 {
+  border-bottom: 3px solid #5e5048;
+}
+
+.place {
+  margin-top: 30px;
+}
+
+.date {
+  background-color: rgba(238, 211, 196, .4);
+  color: #312326;
+  padding: 10px;
+  width: fit-content;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.work {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.responsibilities > li{
+  list-style: square;
+}
+
+.education {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education_wrapper, .courses_wrapper {
+  width: 40%;
+}
+
+.university, .cousre > span {
+  font-weight: bold;
+}
